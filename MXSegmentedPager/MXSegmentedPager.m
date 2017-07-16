@@ -88,6 +88,11 @@
                           animated:animated];
 }
 
+- (void)scrollHeaderToTopAnimated:(BOOL)animated {
+    [_contentView setContentOffset:CGPointMake(0, 0)
+                          animated:animated];
+}
+
 #pragma mark Layout
 
 - (void)layoutSubviews {

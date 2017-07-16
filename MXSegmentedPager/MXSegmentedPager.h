@@ -247,6 +247,11 @@ typedef NS_ENUM(NSInteger, MXSegmentedControlPosition) {
  */
 - (void)scrollToTopAnimated:(BOOL)animated;
 
+/**
+ Scrolls the main contentView make header to the top position
+ */
+- (void)scrollHeaderToTopAnimated:(BOOL)animated;
+
 @end
 
 /**
